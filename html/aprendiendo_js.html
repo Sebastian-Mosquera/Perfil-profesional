@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-
-
+<body onload="load_page()">
 
     <label for="" id="box_one"></label>
     <label for="" id="box_two"></label>
 
+    <button onclick="change_color()">Cambiar color</button>
+    <button id="clear_color">Limpiar color</button>
 
-    <script src="../Perfil-profesional/js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <form id="form_register" autocomplete="off">
+        <label for="">Nombres</label>
+        <input type="text" id="nombres" size="30" placeholder="Escriba sus nombres">
+        <br>
+        <input type="text" id="apellidos" size="30" placeholder="Escriba sus apellidos">
+        <br>
+        <button type="submit">Registrarse</buton>
+        <button type="submit">Limpiar</button>
+        <br>
+        <p id="information"></p>
+    </form>
+
+    <br><br>
+    <script src="../js/code.jquery.com_jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../Perfil-profesional/js/functions.js"></script>
-    <script>
-    var a = 5;
-    var b =2;
-    // alert(a+b);
-    // alert("Bienvenido");
-    </script>
+    <script src="../js/functions.js"></script>
 </body>
 </html>
