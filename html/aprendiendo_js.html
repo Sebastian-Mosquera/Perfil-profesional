@@ -15,8 +15,9 @@
 
     <form id="form_register" autocomplete="off">
         <label for="">Nombres</label>
-        <input type="text" id="nombres" size="30" placeholder="Escriba sus nombres">
+        <input type="text" id="nombres" size="30" placeholder="Escriba sus nombres" onblur="validate()">
         <br>
+        <label for="">Apellidos</label>
         <input type="text" id="apellidos" size="30" placeholder="Escriba sus apellidos">
         <br>
         <button type="submit">Registrarse</buton>
