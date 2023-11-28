@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastián Mosquera</title>
-    <link rel="shortcut icon" href="icons/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/Sebastian.icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <!-- front page -->
-    <header class="person">
+    <header class="person" id="start">
         <nav class="nav container">
             <div class="nav_logo">
-                <h2 class="nav_title">Sebastián Mosquera</h2>
+                <h2 class="nav_title">Perfil Profesional</h2>
             </div>
             <!-- ul.nav_link.nav_link_menu>(li.nav_items>a.nav_links{Texto})*4 -->
             <ul class="nav_link nav_link_menu">
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Inicio</a>
+                    <a href="#start" class="nav_links">Inicio</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Acerca de</a>
+                    <a href="#about" class="nav_links">Acerca de</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Contacto</a>
+                    <a href="#about_me" class="nav_links">Contacto</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Redes Sociales</a>
+                    <a href="#data" class="nav_links">Preguntas</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#testimonys" class="nav_links">Compañeros</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#social" class="nav_links">Redes Sociales</a>
                 </li>
                 <img src="icons/exit.svg" alt="Icon Exit" class="nav_close">
             </ul>
@@ -36,44 +43,46 @@
                 <img src="icons/menu.svg" alt="Icon Menu" class="nav_img">
             </div>
         </nav>
-        <section class="person_container container">
+        <section class="person_container container" >
             <h1 class="person_title">Johan Sebastián Mosquera Bayona</h1>
-            <p class="person_paragraph">#CoachProfesional</p>
+            <p class="person_paragraph">#Estudiante de Ingenieria en sistemas</p>
             <a href="#" class="btn">Haz Click</a>
         </section>
     </header>
 
     <!-- options -->
     <main>
-        <section class="container about">
-            <h2 class="subtitle">Lorem, ipsum dolor sit adipisicing elit.</h2>
-            <p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos dolore distinctio incidunt odio maiores ipsum porro quas illo! Natus, totam?</p>
+        <section class="container about" id="about">
+            <h2 class="subtitle">Ingeniero de Sistemas a futuro</h2>
+            <p class="about_paragraph">Inspirado por el deseo de hacer una contribución significativa, me sumerjo en cada proyecto con la determinación de innovar y mejorar la calidad de vida de las personas.</p>
 
             <div class="about_main">
                 <!-- (article.about_icons>img.about_icon+h3.about_title+p.about_paragraph)*3 -->
                 <article class="about_icons">
-                    <img src="icons/menu.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">Lorem Ipsun</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius ullam voluptas officiis nemo? Adipisci ratione id nam temporibus fuga.</p>
+                    <img src="images/habilidades.png" alt="Icon" class="about_icon">
+                    <h3 class="about_title">Habilidades a desarrollar</h3>
+                    <p class="about_paragraph">A medida que avanzo en mi carrera, me concentraré en cultivar habilidades específicas en el desarrollo web, consciente de su importancia y capacidad para influir positivamente en diferentes ámbitos. </p>
                 </article>
                 <article class="about_icons">
-                    <img src="icons/menu.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">Lorem Ipsun</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius ullam voluptas officiis nemo? Adipisci ratione id nam temporibus fuga.</p>
+                    <img src="images/futuro.png" alt="Icon" class="about_icon">
+                    <h3 class="about_title">Planes a futuro</h3>
+                    <p class="about_paragraph">Mi principal objetivo seria culminar mi carrera universitaria y estar capacitado para poder trabajar en una empresa de renombre y adquirir nuevos conocimientos en el camino.</p>
                 </article>
                 <article class="about_icons">
-                    <img src="icons/menu.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">Lorem Ipsun</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius ullam voluptas officiis nemo? Adipisci ratione id nam temporibus fuga.</p>
+                    <img src="images/logro.png" alt="Icon" class="about_icon">
+                    <h3 class="about_title">Logros a cumplir</h3>
+                    <p class="about_paragraph">Mi principal logro a cumplir es poder terminar mi carrera y conseguir un buen puesto en una empresa de renombre para poder ayudar a mis padres y a las personas que me ayudaron a poder estudiar y darme esta grandisima oportunidad de ser alguien en la vida.</p>
                 </article>
             </div>
         </section>
         
-        <section class="options">
+        <section class="options" id="about_me">
             <div class="options_container container">
                 <div class="options_texts">
-                    <h2 class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
-                    <p class="options_paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quod perferendis maiores aspernatur non culpa molestias illo incidunt laudantium. Sed error ea quasi quam aspernatur possimus doloremque nemo consequatur in libero, reprehenderit quo impedit eveniet, temporibus corporis accusantium, necessitatibus nobis nam sint facilis pariatur nihil quos. Suscipit esse tempore nesciunt.</p>
+                    <h2 class="subtitle">Yo soy Johan Sebastián Mosquera Bayona.</h2>
+                    <p class="options_paragraph">Bienvenido a mi perfil profesional, mi máxima prioridad es fusionar la innovación con la pasión por ayudar a las personas. Como ingeniero de sistemas, mi enfoque se centra en la creación de soluciones novedosas que simplifiquen las tareas diarias, generando un impacto en las personas que las usen.
+                    A través de mis proyectos, aspiro a construir un camino hacia un cambio progresivo en mi entorno. Mi visión es transformar gradualmente nuestro mundo, Creo en la capacidad de mis resultados para abrir nuevas perspectivas y, con el tiempo, expandir esa ola de cambio a un nivel cada vez más amplio.
+                     </p>
                 </div>
                 <figure class="options_picture">
                     <img src="images/Perfil.jpg" alt="Imagen Options" class="options_img">
@@ -82,52 +91,52 @@
         </section>
 
         <!-- slider -->
-        <section class="testimony">
+        <section class="testimony" id="testimonys">
             <div class="testimony_container container">
                 <img src="icons/leftarrow.svg" alt="" class="testimony_arrow" id="before">
                 <!-- section.testimony_body>(.testimony_texts>(h2.subtitle>span.testimony_course)+p.testimony_review)+figure.testimony_img -->
                 <section class="testimony_body testimony_body--show" data-id="1">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Sebastian Mosquera
+                        <h2 class="subtitle">Mi nombre es Gerardo Duran
                             <span class="testimony_course">Estudiante</span>
                         </h2>
-                        <p class="testimony_review"></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro quidem eveniet error quisquam modi. Ea modi cumque repellendus, ipsum explicabo ut iste id ullam natus eos debitis doloribus mollitia!
+                        <p class="testimony_review">Lo que más valoro de Sebastián es tu habilidad para conectar con las personas. Tu calidez y empatía hacen que todos se sientan valorados.</p>
                     </div>
                     <figure class="testimony_picture">
-                        <img src="images/face1.jpg" alt="Foto Usuario" class="testimony_img">
+                        <img src="images/gerardo.enc" alt="Foto Usuario" class="testimony_img">
                     </figure>
                 </section>  
                 <section class="testimony_body" data-id="2">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Sebastian Mosquera
+                        <h2 class="subtitle">Mi nombre es Kevin Diaz
                             <span class="testimony_course">Estudiante</span>
                         </h2>
-                        <p class="testimony_review"></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro quidem eveniet error quisquam modi. Ea modi cumque repellendus, ipsum explicabo ut iste id ullam natus eos debitis doloribus mollitia!
+                        <p class="testimony_review">Tu capacidad para enfrentar desafíos con ingenio y determinación es admirable. Siempre logras encontrar soluciones efectivas.</p>
                     </div>
                     <figure class="testimony_picture">
-                        <img src="images/face2.jpg" alt="Foto Usuario" class="testimony_img">
+                        <img src="images/kevin chirii.jpeg" alt="Foto Usuario" class="testimony_img">
                     </figure>
                 </section>
                 <section class="testimony_body" data-id="3">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Sebastian Mosquera
+                        <h2 class="subtitle">Mi nombre es Santiago Guevara
                             <span class="testimony_course">Estudiante</span>
                         </h2>
-                        <p class="testimony_review"></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro quidem eveniet error quisquam modi. Ea modi cumque repellendus, ipsum explicabo ut iste id ullam natus eos debitis doloribus mollitia!
+                        <p class="testimony_review">Tu actitud positiva, incluso en situaciones desafiantes, es inspiradora. Tu resiliencia es un ejemplo para todos nosotros.</p>
                     </div>
                     <figure class="testimony_picture">
-                        <img src="images/face3.jpg" alt="Foto Usuario" class="testimony_img">
+                        <img src="images/Santiago.enc" alt="Foto Usuario" class="testimony_img">
                     </figure>
                 </section>
                 <section class="testimony_body " data-id="4">
                     <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Sebastian Mosquera
+                        <h2 class="subtitle">Mi nombre es Kevin Stive
                             <span class="testimony_course">Estudiante</span>
                         </h2>
-                        <p class="testimony_review"></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti porro quidem eveniet error quisquam modi. Ea modi cumque repellendus, ipsum explicabo ut iste id ullam natus eos debitis doloribus mollitia!
+                        <p class="testimony_review">Tu ética de trabajo incansable no pasa desapercibida. Tu dedicación al éxito es evidente en cada tarea que emprendes</p>
                     </div>
                     <figure class="testimony_picture">
-                        <img src="images/face4.jpg" alt="Foto Usuario" class="testimony_img">
+                        <img src="images/kevin.enc" alt="Foto Usuario" class="testimony_img">
                     </figure>
                 </section>
                 <img src="icons/rightarrow.svg" alt="" class="testimony_arrow" id="next">
@@ -135,56 +144,56 @@
         </section>
 
         <!-- questions -->
-        <section class="questions">
+        <section class="questions" id="data">
             <div class="container">
-                <h2 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem delectus quas minima necessitatibus voluptatem hic, commodi aut ex amet.</h2>
-                <p class="questions_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sapiente harum commodi praesentium voluptatibus! Ipsa cupiditate harum repellat consectetur deleniti.</p>
+                <h2 class="subtitle">Datos adiocinales sobre mí.</h2>
+                <p class="questions_paragraph">A continuacion voy a comentar algunos datos que me parecen importantes sobre mí.</p>
                 
                 <section class="questions_container">
                     <article class="questions_padding">
                         <div class="questions_answer">
-                            <h3 class="questions_title">Lorem, ipsum dolor.?
+                            <h3 class="questions_title">¿Donde estudiaste?
                                 <span class="questions_arrow">
                                     <img src="icons/arrow.svg" alt="" class="questions_img">
                                 </span>
                             </h3>
                             <p class="questions_show">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam impedit, consectetur ipsa asperiores sapiente saepe nobis quam natus sit alias tempora sint, blanditiis distinctio praesentium? Maiores, non? Molestiae, aut?wa
+                                Estudie en abrego Norte de Santander, en la Institución Educativa Colegio Santa Barbara en el cual curse todo mi año estudiantil y actualmente estudio en la universidad Francisco de Paula Santander Seccional Ocaña. 
                             </p>
                         </div>
                     </article>
                     <article class="questions_padding">
                         <div class="questions_answer">
-                            <h3 class="questions_title">Lorem, ipsum dolor.?
+                            <h3 class="questions_title">¿Porque decidiste estudiar ingenieria en sistemas?
                                 <span class="questions_arrow">
                                     <img src="icons/arrow.svg" alt="" class="questions_img">
                                 </span>
                             </h3>
                             <p class="questions_show">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam impedit, consectetur ipsa asperiores sapiente saepe nobis quam natus sit alias tempora sint, blanditiis distinctio praesentium? Maiores, non? Molestiae, aut?wa
+                                Elegí estudiar ingeniería en sistemas porque siempre he sentido una fascinación por la tecnología y el mundo digital. Desde joven, me ha emocionado la idea de crear soluciones innovadoras y resolver problemas utilizando la informática.
                             </p>
                         </div>
                     </article>
                     <article class="questions_padding">
                         <div class="questions_answer">
-                            <h3 class="questions_title">Lorem, ipsum dolor.?
+                            <h3 class="questions_title">¿Cuál es tu hobby o pasatiempo favorito?
                                 <span class="questions_arrow">
                                     <img src="icons/arrow.svg" alt="" class="questions_img">
                                 </span>
                             </h3>
                             <p class="questions_show">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus totam impedit, consectetur ipsa asperiores sapiente saepe nobis quam natus sit alias tempora sint, blanditiis distinctio praesentium? Maiores, non? Molestiae, aut?wa
+                                Mi hobby se podria decir que son los videojuegos y pasar tiempo viendo videos, tanto entretenidos como de investigación, quisiera invertir mas tiempo en investigar cosas que me puedan ayudar en mi carrera pero soy bastante perezoso, estoy tratando de cambiar eso poco a poco. 
                             </p>
                         </div>
                     </article>
                 </section>
 
                 <section class="questions_offer">
-                    <h2 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <h2 class="subtitle">¿Tienes mas dudas?</h2>
                     <p class="questions_copy">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A itaque quo possimus suscipit repudiandae minima dolorum. Odit autem dignissimos itaque.
+                        Es posible que algunas de tus preguntas no hayan tenido una respuesta o fueron muy cortas asi que sientete libre de hacer una pregunta.
                     </p>
-                    <a href="#" class="cta">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="cta">Presioname para hacer una pregunta.</a>
                 </section>
             </div>
         </section>
@@ -195,7 +204,7 @@
     <footer class="footer">
         <section class="footer_container container">
             <nav class="nav nav--footer">
-                <h2 class="footer_title">Wilder Duarte</h2>
+                <h2 class="footer_title">Sebastián Mosquera</h2>
                 <ul class="nav_link nav_link--footer">
                     <!-- (li.nav_items>a.nav_links{Option})*4 -->
                     <li class="nav_items">
@@ -221,13 +230,13 @@
                 </div>
             </form>
         </section>
-        <section class="footer_copy container">
+        <section class="footer_copy container" id="social">
             <div class="footer_social">
                 <a href="#" class="footer_icon"><img src="icons/facebook.svg" alt="Icon Facebook" class="footer_img"></a>
                 <a href="#" class="footer_icon"><img src="icons/instagram.svg" alt="Icon Instagram" class="footer_img"></a>
                 <a href="#" class="footer_icon"><img src="icons/twitter.svg" alt="Icon Twitter" class="footer_img"></a>
             </div>
-            <h3 class="footer_copyright">Derechos reservados &copy; Wilder Duarte</h3>
+            <h3 class="footer_copyright">Derechos reservados &copy; Joseph Mamian.</h3>
         </section>
     </footer>
 
